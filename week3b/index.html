@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="content">
+    <div class="reg">
+        <h3><b>Registration Form</b>
+            </h3>
+        </div><br>
+        <div class="yes"> 
+            <p>First Name:</p>
+            <input type="text" class="yes-1" name="fname" id="fname" placeholder="Enter First Name" />
+        </div> <br>
+        <div class="yes">
+            <p>Last Name:</p>
+            <input type="text" class="yes-1" name="lname" id="lname" placeholder="Enter Last Name"/>
+        </div> <br>
+        <div class="yes">
+            <p>Phone Number:</p>
+            <input type="tel"  class="yes-2" name="tel" id="tel" pattern="[0-9]{3}[0-9]{4}[0-9]{4}"placeholder="1234567890"/> 
+        </div> <br>
+        <div class="yes">
+            <p>Email:</p>
+            <input type="email" class="yes-3" name="email" id="email" placeholder="Enter Valid Email"/>
+        </div> <br>
+        <div class="yes">
+            <p>Password</p>
+            <input type="password" class="yes-4" name="pswd" id="pswd" placeholder="Enter password"/>
+        </div> <br>
+        <div class="yes">
+            <p>Confirm Password</p>
+            <input type="password" class="yes-4" name="repeat-pswd" id="repeat-pswd" placeholder="Confirm Password"/>
+        </div> <br>
+        <div class="yes">
+        <p>Gender</p>
+        <select name="gender" id="gender">Gender
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="pnts">Prefer not to say</option>
+        </select>
+    </div> <br>
+<div class="yes">
+    <p>Date of Birth</p>
+    <input type="date" name="birthday" id="birthday">
+</div> <br>
+<div class="yes">
+    <p>Favorite Color</p>
+    <input type="color" name="color" id="color">
+</div> <br>
+<br>
+<div class="yes">
+<button><a href="login.html" target="_blank">Create Account</a></button>
+</div>
+    </form>
+</div>
+</body>
+
+</html>

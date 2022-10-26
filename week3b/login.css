@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    /* styling the background */
+    body{
+        height: 100vh;
+        width:  100%;
+        background-color: rgb(146, 193, 199);
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width:100% ;
+    }  
+
+    /* styling the content box */
+.login{
+    background-color: white;
+    padding: 100px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    font-size: 16px;
+    border-radius: 5px; 
+} 
+
+
+/* styling username and password */
+.yes{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+input[type="text"].yes-1{
+    font-size: 16px;
+    outline: none;
+    width: calc(100%-20px);
+    border: 2px solid rgb(111, 172, 190);
+    padding: 8px;
+    transition: all 0.3s ease;
+
+}
+ 
+input[type="password"].yes-1{
+    font-size: 16px;
+    outline: none;
+    width: calc(100%-20px);
+    border: 2px solid rgb(111, 172, 190);
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"].yes-1:hover, input[type="password"].yes-1:hover {
+    border: 2px solid black;
+}
+input[type="text"].yes-1:focus, input[type="password"].yes-1:focus {
+    border: 2px solid black;
+}
+input[type="text"].yes-1:active, input[type="password"].yes-1:active {
+    border: 2px solid black;
+}
+label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+label input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button{
+    outline: none;
+    background-color:rgb(146, 193, 199) ;
+    color: white;
+    padding: 16px;
+    display: block;
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    box-shadow: 3px 3px 3px rgb(13, 223, 238);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}

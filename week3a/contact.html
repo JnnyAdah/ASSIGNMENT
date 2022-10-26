@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContactMe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body-2">
+    <main class="main-2">
+      <div class="main-section">
+        <div class="left-section">
+          <h2>Contact Me &#9742;&#65039;</h2>
+          <p class="header-p">
+            Need to get in touch with me? <br />
+            Either fill out the form with your inquiry <br />
+            or send an email to <a href="mailto: augustinejennifer3@gmail.com" style="font-size: 12px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: red;">Click Me</a>
+        </p>
+            
+          <br />
+        </div>
+        <div class="right-section">
+          <form action="#" class="container-1">
+            <p>First Name</p>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Your name..."
+            required/>
+            <p>Last Name</p>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Your last name..."
+            required/>
+            <p>Email</p>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            />
+            <p>What can i help you with</p>
+            <textarea
+              name="subject"
+              id="subject"
+              placeholder="write something..."
+              style="height: 150px"
+              
+            ></textarea>
+            <p><input type="submit" value="Submit" class="submit-1" /></p>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
