@@ -12,7 +12,7 @@
 
 
 ## 🚀 About Me
-Give you an overview of what has been learnt so far in zuri training
+Gives you an overview of what has been learnt so far in zuri training
 
 
 ## Requirements
